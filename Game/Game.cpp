@@ -74,7 +74,7 @@ double Game::Damage() {
 Game::Game()
 {
 	cout << "에너지가 " << energy << " 이며, 생명이 " << life << "인 캐릭터가 만들어졌습니다.\n";
-	while (life>0)
+	while (life > 0)
 	{
 		Move();
 		Damage();
@@ -87,6 +87,6 @@ Game::Game()
 int main()
 {
 	Game c1;
-	
+
 	return 0;
 }
